@@ -198,6 +198,12 @@
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Templates\Budget.html" />
+    <Content Include="Templates\Home.html" />
+    <Content Include="Templates\Login.html" />
+    <Content Include="Templates\Payment.html" />
+    <Content Include="Templates\Registration.html" />
+    <Content Include="Templates\UserDetails.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -216,6 +222,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Scripts\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
