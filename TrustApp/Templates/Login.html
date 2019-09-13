@@ -1,13 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login V18</title>
+    <title>Login</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../Content/Login.css" rel="stylesheet" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <script src="../Scripts/jquery-3.3.1.min.js"></script>
     <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/js/Login.js"></script>
 </head>
 <body>
     <div class="container">
@@ -15,35 +16,30 @@
 
              <div class="col-lg-7">
               <img src="../Images/LOGO.jpg" />
-         </div>
+             </div>
 
              <div class="col-lg-4 logincss">
-            <span class="login100-form-title">
-                Login
-            </span>
-
-
-            <div class="wrap-input100 validate-input">
-                <input class="input100 has-val" type="text" name="email">
-                <span class="focus-input100"></span>
-                <span class="label-input100">Email</span>
-            </div>
-
-
-            <div class="wrap-input100 validate-input" data-validate="Password is required">
-                <input class="input100 has-val" type="password" name="pass">
-                <span class="focus-input100"></span>
-                <span class="label-input100">Password</span>
-            </div>
-
-             <div class="container-login100-form-btn">
-                <button class="login100-form-btn">
+                <span class="login100-form-title">
                     Login
-                </button>
-            </div>
+                </span>
 
+                <div class="wrap-input100 validate-input">
+                    <input class="input100 has-val" id="username" type="text" name="email">
+                    <span class="focus-input100"></span>
+                    <span class="label-input100">Email</span>
+                </div>
+                 
+                <div class="wrap-input100 validate-input" data-validate="Password is required">
+                    <input class="input100 has-val" id="password" type="password" name="pass">
+                    <span class="focus-input100"></span>
+                    <span class="label-input100">Password</span>
+                </div>
 
-        </div>
+                <div class="container-login100-form-btn">
+                    <button type="button" class="login100-form-btn" onclick="login()">Login</button>
+                </div>
+
+             </div>
                
         </div>
     </div>
